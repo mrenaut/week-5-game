@@ -1,0 +1,81 @@
+<!doctype html>
+<!DOCTYPE html>
+<html lang="us">
+<head>
+	<meta charset="UTF-8">
+	<title>Rick and Morty Trivia</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--JQuery link-->
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<!--background and main container begin-->
+	<main id="background">
+		<div class="row">
+			<div class="container">
+
+				<!--Heading-->
+				<div class="row">
+					<!--Container holding heading, instructions and start button-->
+					<div class="container">
+						<div class="jumbotron"> 
+							<h1>Rick and Morty Trivia</h1>
+							<p>How well do you know the awesome show Rick and Morty?  Click start to find out!</p>
+							<p><a class="btn btn-primary btn-lg" href="#" role="button id" id="startButton">Start</a></p>
+						</div>
+					</div>
+				</div>
+
+				<!--question and and answer section-->
+				<!--question section-->
+				<div class="panel panel-default" id="questionSection">
+					<div class="panel-heading" >
+						<h3 class="panel-title text-center" id="question">
+						Question
+						</h3>
+					</div>
+					<!--answer section-->
+					<div class="panel-body">
+						<div class="btn-group-vertical" role="group" aria-label="...">
+							<button type="button" class="btn btn-default" id="answer1" >Possible answer to question Possible answer to question.</button>
+							<button type="button" class="btn btn-default" id="answer2">Possible answer to question Possible answer to question.</button>
+							<button type="button" class="btn btn-default" id="answer3">Possible answer to question Possible answer to question.</button>
+							<button type="button" class="btn btn-default" id="answer4">Possible answer to question Possible answer to question.</button>	
+						</div>
+					</div>
+					<!--timer section-->
+					<div id="timer"> 							
+							<p class="btn btn-primary btn-lg">30 seconds</p>
+						</div>
+
+
+
+				</div>
+			</div>
+
+				<!--background and main container end-->
+			</div>
+		</div>
+	</main>
+
+
+
+
+
+
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/js/logic.js"></script>
+	</body>
+
+
+
+
+	</html>
